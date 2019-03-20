@@ -16,5 +16,6 @@ $cub=$i*$i*$i;
 print"<TR><TD>$i</TD><TD>$sqrt</TD><TD>$sqr</TD><TD>$cub</TD></TR>\n";
 }
 ?>
+</TABLE>
 </BODY>
 <HTML>
