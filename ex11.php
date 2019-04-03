@@ -22,25 +22,32 @@ print"<TR><TD>$i</TD><TD>$cub2</TD><TD>$cub3</TD><TD>$cub4</TD><TD>$cub5</TD><TD
 
 
 echo"<br>";
-$x=20;
-for($i=1; $i<=$x; $i=$i+1)
+$x=50;
+$y=1;
+echo "<pre>";
+for($i=1; $i<=$x; $i++)
             {
-                echo"<br><pre>";
-                
-                for($j=1; $j<=$x-$i; $j=$j+1) 
-                
-                echo" ";
-                              
-                for($k=1; $k<=$i+$i-1; $k=$k+1) {
-                 echo "*";
 
+                for($bosluq=0;$bosluq<=$x-$i;$bosluq++){
+                    echo" ";
                 }
-                if ($i==10){
-                    break;
+
+                
+
+                for($ulduz=1;$ulduz<=$i;$ulduz++){
+                    echo "*";
+                    echo" ";
                 }
-                 echo"</pre>";
+
+
+                for($bosluq=0;$bosluq<=$x-$i;$bosluq++){
+                    echo" ";
                 }
-                          
+
+                echo"<br>";
+
+            }
+echo"</pre>";                          
 
 
 
