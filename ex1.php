@@ -1,5 +1,5 @@
 <?php
-echo"<h1>Projects i have worked on</h1>
+echo"<1>Projects i have worked on</h1>
 <ul>
 <li>downloadingXampp</li>
 <li>Installing Php Server</li>

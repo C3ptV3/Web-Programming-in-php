@@ -1,5 +1,5 @@
 <?php
-$t=date("H");
+$t=21;
 print($t."<br>");
 if($t<10){
     echo "Have a good morning!<br>";

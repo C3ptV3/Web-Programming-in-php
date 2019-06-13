@@ -1,27 +1,57 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Page Title</title>
-    <link ref="stylesheet" type="text/css" href="zac2.css"/>
-</head>
-<body>
-    <table>
-     <tr>
-    <?php
-    $i=1;
-    echo "<tr>";
-    while($i<10){
-    $x=1;
-while($x<=10){
-    echo "<td>"; echo $i."x". $x ."=".$i*$x; echo"</td>";
-    $x++;
+<?php
+$a=5;$b=1;$c=4;
+
+
+if ($a<$b){
+    if($a<$c){
+        echo "$a";
+        if($b<$c){
+            echo"$b";
+            echo"$c";
+        }
+        else{
+            echo"$c";
+            echo"$b";
+        }
+    }
+    else{
+        echo "$c";
+        if($b<$c){
+            echo"$b";
+            echo"$c";
+        }
+        else{
+            echo"$a";
+            echo"$b";
+        }
+    }
 }
-echo "</tr>";
-$i++;
+elseif($b<$a){
+    if($b<$c){
+        echo "$b";
+        if($a<$c){
+            echo"$a";
+            echo"$c";
+        }
+        else{
+            echo"$c";
+            echo"$a";
+        }
+    }
+    else{
+        echo "$c";
+        if($a<$c){
+            echo"$c";
+            echo"$a";
+
+        }
+        else{
+            echo"$b";
+            echo"$a";
+        }
+    }
 }
+
+
+
 ?>
-</tr>
-</table>
-</body>
-</html>
